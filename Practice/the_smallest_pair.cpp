@@ -6,12 +6,14 @@ int main(){
     while(t--){
         int n;
         cin>>n;
-        int ans=0, A[n];
+        vector <int> V;
         for(int i=0;i<n;i++){
-            cin>>A[i];
-            ans=A[i]^ans;
+            int x;
+            cin>>x;
+            V.push_back(x);
         }
-        
+        sort(V.begin(), V.end());
+        cout<<V.at(0)+V.at(1)<<endl;
     }
     return 0;
-}..and
+}
