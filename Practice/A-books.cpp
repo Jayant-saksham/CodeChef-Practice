@@ -24,7 +24,6 @@ int main(){
     }
     return 0;
 }
-
 // Given array is sorted and non repeating elements
 // for(int i=0;i<n;i++){
 //     cout<<(n-1)<<" ";
